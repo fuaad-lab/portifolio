@@ -1,4 +1,5 @@
 import React from "react";
+import { RiDownloadLine } from "react-icons/ri";
 
 const AboutMe = () => {
   return (
@@ -35,12 +36,14 @@ const AboutMe = () => {
               <span className="bg-white px-4 py-2 rounded shadow">
                 Responsive Design
               </span>
-              <span className="bg-white px-4 py-2 rounded shadow">
-                Git
-              </span>
+              <span className="bg-white px-4 py-2 rounded shadow">Git</span>
             </div>
           </div>
-          <button className="mt-8 bg-blue-600 text-white px-6 py-2 rounded-lg shadow hover:bg-blue-700 transition">
+          <button
+            onClick={() => window.open("Fuad_Ibrahim_CV.pdf", "_blank")}
+            className="flex items-center gap-2 mt-8 bg-blue-600 text-white px-6 py-2 rounded-lg shadow hover:bg-blue-700 transition"
+          >
+            <RiDownloadLine className="text-xl" />
             Download CV
           </button>
         </div>

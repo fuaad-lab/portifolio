@@ -1,4 +1,5 @@
 import React from "react";
+import { FaGithub, FaLinkedin, FaSquareXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -13,22 +14,22 @@ const Footer = () => {
         {/* Right - Social Links */}
         <div className="flex gap-6 mt-4 md:mt-0">
           <a
-            href="#"
+            href="https://github.com/fuaad-lab"
             className="hover:text-white transition"
           >
-            LinkedIn
+            <FaGithub className="w-[30px] h-[30px]" />
           </a>
           <a
-            href="#"
+            href="https://x.com/fuaadi174"
             className="hover:text-white transition"
           >
-            GitHub
+            <FaSquareXTwitter className="w-[30px] h-[30px]" />
           </a>
           <a
-            href="#"
+            href="https://www.linkedin.com/in/fuaad-ibraahin-4738b4387/?trk=flagship3_open_to_hiring_creation_upsell"
             className="hover:text-white transition"
           >
-            Twitter
+            <FaLinkedin className="w-[30px] h-[30px]" />
           </a>
         </div>
       </div>
