@@ -7,7 +7,7 @@ const AboutMe = () => {
       <div className="max-w-6xl mx-auto px-6 md:flex md:items-ceter md:gap-12">
         <div className="flex justify-center md:w-1/2">
           <img
-            src="download (2).webp"
+            src="./download (2).webp"
             alt=""
             className="w-60 h-60 object-cover rounded-2xl shadow-lg"
           />
